@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoachFlow — 1:1 Coaching for Ambitious Professionals</title>
+  <meta name="description" content="Turn your goals into a clear, actionable plan. CoachFlow provides personalized 1:1 coaching, practical guidance, and a strategy built around your goals." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔶</text></svg>" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAVIGATION
+       ═══════════════════════════════════════ -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" aria-label="CoachFlow home">
+        <span class="nav__logo-dot"></span>CoachFlow
+      </a>
+
+      <ul class="nav__links">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#how-it-works" class="nav__link">How It Works</a></li>
+        <li><a href="#results" class="nav__link">Results</a></li>
+        <li><a href="#faq" class="nav__link">FAQ</a></li>
+      </ul>
+
+      <div class="nav__cta">
+        <a href="#book" class="btn btn--primary">Book a Free Call</a>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button class="nav__hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile overlay -->
+    <div class="nav__mobile" aria-hidden="true">
+      <a href="#about">About</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#results">Results</a>
+      <a href="#faq">FAQ</a>
+      <a href="#book" class="btn btn--primary btn--lg">Book a Free Call</a>
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════
+       HERO
+       ═══════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <!-- Background image -->
+    <div class="hero__bg">
+      <img src="images/hero-coaching.jpg" alt="" aria-hidden="true" />
+    </div>
+
+    <!-- Decorative orbs -->
+    <div class="hero__orb hero__orb--1" aria-hidden="true"></div>
+    <div class="hero__orb hero__orb--2" aria-hidden="true"></div>
+
+    <div class="container hero__content">
+      <div class="hero__text">
+        <span class="eyebrow">1:1 Coaching for Ambitious Professionals</span>
+
+        <h1 class="hero__headline">
+          Turn Your Goals Into a<br />
+          <span>Clear, Actionable Plan.</span>
+        </h1>
+
+        <p class="hero__supporting">
+          You don't need more random advice. You need clarity, accountability, and a strategy built around <em>your</em> goals. CoachFlow pairs you with a dedicated coach who helps you cut through the noise and take meaningful action.
+        </p>
+
+        <div class="hero__cta-group">
+          <a href="#book" class="btn btn--primary btn--lg" id="hero-cta">
+            Book Your Free Strategy Call
+            <span class="btn-arrow">→</span>
+          </a>
+          <p class="microcopy">
+            <span>📅 30-minute call</span>
+            <span>·</span>
+            <span>No pressure</span>
+            <span>·</span>
+            <span>No commitment</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="hero__image">
+        <div class="hero__image-wrapper">
+          <img src="images/coach-portrait.jpg" alt="Professional coaching session at CoachFlow" width="480" height="640" />
+
+          <div class="hero__badge">
+            <div class="hero__badge-icon">⭐</div>
+            <div class="hero__badge-text">
+              <strong>300+ Professionals Coached</strong>
+              <span>Trusted by ambitious leaders</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       PROBLEM
+       ═══════════════════════════════════════ -->
+  <section class="section section--cream" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Sound Familiar?</span>
+        <h2 class="section-headline">You Know You Want More.<br />You Just Don't Know What Comes Next.</h2>
+        <p class="section-subtitle">If you're caught between ambition and uncertainty, you're not alone. Most high-performers hit a point where working harder isn't the answer — working <em>smarter</em> is.</p>
+      </div>
+
+      <div class="problems__grid">
+        <div class="problem-card reveal reveal-delay-1">
+          <div class="problem-card__icon">🧭</div>
+          <h3 class="problem-card__title">Unclear Direction</h3>
+          <p class="problem-card__desc">You have goals, but no clear roadmap to get there. Every path feels uncertain and overwhelming.</p>
+        </div>
+
+        <div class="problem-card reveal reveal-delay-2">
+          <div class="problem-card__icon">🔄</div>
+          <h3 class="problem-card__title">Overthinking & Inaction</h3>
+          <p class="problem-card__desc">You analyze every option endlessly but struggle to commit and take the first step forward.</p>
+        </div>
+
+        <div class="problem-card reveal reveal-delay-3">
+          <div class="problem-card__icon">🎯</div>
+          <h3 class="problem-card__title">Lack of Accountability</h3>
+          <p class="problem-card__desc">Without someone in your corner, it's easy to lose momentum and let priorities slip through the cracks.</p>
+        </div>
+
+        <div class="problem-card reveal reveal-delay-4">
+          <div class="problem-card__icon">📋</div>
+          <h3 class="problem-card__title">No Clear Strategy</h3>
+          <p class="problem-card__desc">You've consumed all the advice, but you're still missing a personalized plan that fits your unique situation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       SOLUTION
+       ═══════════════════════════════════════ -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">The CoachFlow Approach</span>
+        <h2 class="section-headline">Clarity First. Strategy Second.<br />Action Every Step of the Way.</h2>
+        <p class="section-subtitle">CoachFlow's proven framework takes you from feeling stuck to moving forward with confidence and purpose.</p>
+      </div>
+
+      <div class="solution__pillars">
+        <div class="pillar reveal reveal-delay-1">
+          <div class="pillar__number">01</div>
+          <h3 class="pillar__title">Gain Clarity</h3>
+          <p class="pillar__desc">Get crystal clear on what you actually want — not what you think you should want. Define your vision, values, and priorities.</p>
+        </div>
+
+        <div class="pillar reveal reveal-delay-2">
+          <div class="pillar__number">02</div>
+          <h3 class="pillar__title">Build Your Strategy</h3>
+          <p class="pillar__desc">Transform your goals into a structured, step-by-step action plan with clear milestones and realistic timelines.</p>
+        </div>
+
+        <div class="pillar reveal reveal-delay-3">
+          <div class="pillar__number">03</div>
+          <h3 class="pillar__title">Take Action</h3>
+          <p class="pillar__desc">Execute with confidence, backed by ongoing support, accountability, and the guidance to adjust course when needed.</p>
+        </div>
+      </div>
+
+      <div class="solution__cta reveal">
+        <a href="#book" class="btn btn--primary btn--lg">
+          Book Your Free Strategy Call
+          <span class="btn-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       BENEFITS
+       ═══════════════════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">What You'll Gain</span>
+        <h2 class="section-headline">Make Progress You Can Actually See.</h2>
+        <p class="section-subtitle">CoachFlow is designed to deliver tangible outcomes — not vague inspiration. Here's what you can expect.</p>
+      </div>
+
+      <div class="benefits__grid">
+        <div class="benefit-card reveal reveal-delay-1">
+          <div class="benefit-card__check">✓</div>
+          <div>
+            <h3 class="benefit-card__title">Get Clear on Your Direction</h3>
+            <p class="benefit-card__desc">Define exactly where you want to go and eliminate the guesswork holding you back.</p>
+          </div>
+        </div>
+
+        <div class="benefit-card reveal reveal-delay-2">
+          <div class="benefit-card__check">✓</div>
+          <div>
+            <h3 class="benefit-card__title">Make Confident Decisions</h3>
+            <p class="benefit-card__desc">Develop a clear decision-making framework so you stop second-guessing yourself.</p>
+          </div>
+        </div>
+
+        <div class="benefit-card reveal reveal-delay-3">
+          <div class="benefit-card__check">✓</div>
+          <div>
+            <h3 class="benefit-card__title">Create a Practical Action Plan</h3>
+            <p class="benefit-card__desc">Walk away with a step-by-step roadmap you can start executing on immediately.</p>
+          </div>
+        </div>
+
+        <div class="benefit-card reveal reveal-delay-4">
+          <div class="benefit-card__check">✓</div>
+          <div>
+            <h3 class="benefit-card__title">Build Consistent Momentum</h3>
+            <p class="benefit-card__desc">Replace start-stop cycles with sustainable progress week after week.</p>
+          </div>
+        </div>
+
+        <div class="benefit-card reveal reveal-delay-5">
+          <div class="benefit-card__check">✓</div>
+          <div>
+            <h3 class="benefit-card__title">Overcome What's Holding You Back</h3>
+            <p class="benefit-card__desc">Identify and break through the internal blockers, limiting beliefs, and blind spots.</p>
+          </div>
+        </div>
+
+        <div class="benefit-card reveal reveal-delay-6">
+          <div class="benefit-card__check">✓</div>
+          <div>
+            <h3 class="benefit-card__title">Stay Accountable</h3>
+            <p class="benefit-card__desc">Have someone in your corner who keeps you honest, focused, and moving forward.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       COACH INTRO
+       ═══════════════════════════════════════ -->
+  <section class="section section--cream" id="coach">
+    <div class="container">
+      <div class="coach__content">
+        <div class="coach__portrait reveal">
+          <img src="images/coach-portrait.jpg" alt="Alex Morgan — Founder & Lead Coach at CoachFlow" class="coach__portrait-img" width="380" height="507" />
+          <div class="coach__portrait-accent" aria-hidden="true"></div>
+        </div>
+
+        <div class="coach__info reveal reveal-delay-2">
+          <span class="eyebrow">Meet Your Coach</span>
+          <h2 class="coach__name">Alex Morgan</h2>
+          <p class="coach__title">Founder & Lead Coach at CoachFlow</p>
+
+          <p class="coach__bio">
+            Alex has spent the last eight years helping professionals, entrepreneurs, and founders unlock their potential and build lives aligned with their goals. With a background in organizational psychology and executive development, Alex brings a unique blend of strategic thinking and genuine human connection to every coaching relationship.
+          </p>
+          <p class="coach__bio">
+            His approach is practical, direct, and always personalized. No generic advice, no one-size-fits-all playbooks — just clear guidance built around who you are and where you want to go.
+          </p>
+
+          <div class="coach__stats">
+            <div class="coach__stat">
+              <div class="coach__stat-value" data-count="8" data-suffix="+">0+</div>
+              <div class="coach__stat-label">Years Coaching Experience</div>
+            </div>
+            <div class="coach__stat">
+              <div class="coach__stat-value" data-count="300" data-suffix="+">0+</div>
+              <div class="coach__stat-label">Clients Supported</div>
+            </div>
+            <div class="coach__stat">
+              <div class="coach__stat-value">1:1</div>
+              <div class="coach__stat-label">Personalized Coaching</div>
+            </div>
+          </div>
+
+          <a href="#book" class="btn btn--primary btn--lg">
+            Book Your Free Strategy Call
+            <span class="btn-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       HOW IT WORKS
+       ═══════════════════════════════════════ -->
+  <section class="section" id="how-it-works">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Simple Process</span>
+        <h2 class="section-headline">How It Works</h2>
+        <p class="section-subtitle">Getting started is straightforward. Here's how you go from feeling stuck to making real progress.</p>
+      </div>
+
+      <div class="hiw__steps">
+        <div class="hiw-step reveal reveal-delay-1">
+          <div class="hiw-step__number">01</div>
+          <div>
+            <h3 class="hiw-step__title">Book Your Free Call</h3>
+            <p class="hiw-step__desc">Schedule a complimentary 30-minute strategy call. No pressure, no commitment — just a conversation.</p>
+          </div>
+        </div>
+
+        <div class="hiw-step reveal reveal-delay-2">
+          <div class="hiw-step__number">02</div>
+          <div>
+            <h3 class="hiw-step__title">Get Clear on Your Goals</h3>
+            <p class="hiw-step__desc">Together, we'll identify where you are now, where you want to be, and what's standing in the way.</p>
+          </div>
+        </div>
+
+        <div class="hiw-step reveal reveal-delay-3">
+          <div class="hiw-step__number">03</div>
+          <div>
+            <h3 class="hiw-step__title">Create Your Action Plan</h3>
+            <p class="hiw-step__desc">We'll build a personalized roadmap with clear milestones, priorities, and realistic timelines.</p>
+          </div>
+        </div>
+
+        <div class="hiw-step reveal reveal-delay-4">
+          <div class="hiw-step__number">04</div>
+          <div>
+            <h3 class="hiw-step__title">Take Consistent Action</h3>
+            <p class="hiw-step__desc">Execute your plan with weekly coaching sessions, ongoing accountability, and expert guidance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       TESTIMONIALS
+       ═══════════════════════════════════════ -->
+  <section class="section section--dark-alt" id="results">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Client Stories</span>
+        <h2 class="section-headline">What Clients Are Saying</h2>
+        <p class="section-subtitle">Real outcomes from ambitious professionals who took the first step.</p>
+      </div>
+
+      <div class="testimonials__grid">
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">"Before CoachFlow, I was constantly second-guessing myself. Within the first month, I had more clarity about my career direction than I'd had in three years. Alex didn't just motivate me — he gave me a real plan."</p>
+          <div class="testimonial-card__author">
+            <img src="images/testimonial-1.jpg" alt="Sarah L." class="testimonial-card__avatar" width="48" height="48" />
+            <div>
+              <div class="testimonial-card__name">Sarah L.</div>
+              <div class="testimonial-card__role">Marketing Director</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-2">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">"I was stuck in analysis paralysis for months, unable to decide whether to stay in my role or start my own thing. CoachFlow helped me cut through the noise and take action. I launched my business six months later."</p>
+          <div class="testimonial-card__author">
+            <img src="images/testimonial-2.jpg" alt="Marcus T." class="testimonial-card__avatar" width="48" height="48" />
+            <div>
+              <div class="testimonial-card__name">Marcus T.</div>
+              <div class="testimonial-card__role">Founder & CEO</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-3">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">"What I love about CoachFlow is that it's not just cheerleading. Alex challenges you to think bigger, holds you accountable, and actually cares about your outcomes. It's the best investment I've made in myself."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar--initials">JK</div>
+            <div>
+              <div class="testimonial-card__name">Jessica K.</div>
+              <div class="testimonial-card__role">Product Lead at a Series B Startup</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="testimonials__disclaimer reveal">* Sample testimonials for portfolio demonstration purposes.</p>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       COACHING PROGRAM / OFFER
+       ═══════════════════════════════════════ -->
+  <section class="section section--cream" id="program">
+    <div class="container">
+      <div class="offer__content">
+        <div class="offer__text reveal">
+          <span class="eyebrow">The Program</span>
+          <h2 class="section-headline">A Personalized Coaching Experience Built Around Your Goals.</h2>
+          <p class="section-subtitle">Every engagement is tailored to your unique situation, challenges, and aspirations. Here's what's included.</p>
+
+          <div class="offer__features">
+            <div class="offer__feature">
+              <div class="offer__feature-icon">✓</div>
+              <span>Weekly 1:1 coaching sessions (video or phone)</span>
+            </div>
+            <div class="offer__feature">
+              <div class="offer__feature-icon">✓</div>
+              <span>Personalized action plan & roadmap</span>
+            </div>
+            <div class="offer__feature">
+              <div class="offer__feature-icon">✓</div>
+              <span>Goal-setting & prioritization framework</span>
+            </div>
+            <div class="offer__feature">
+              <div class="offer__feature-icon">✓</div>
+              <span>Ongoing accountability between sessions</span>
+            </div>
+            <div class="offer__feature">
+              <div class="offer__feature-icon">✓</div>
+              <span>Practical exercises & curated resources</span>
+            </div>
+            <div class="offer__feature">
+              <div class="offer__feature-icon">✓</div>
+              <span>Progress tracking & milestone reviews</span>
+            </div>
+            <div class="offer__feature">
+              <div class="offer__feature-icon">✓</div>
+              <span>Direct message support between sessions</span>
+            </div>
+          </div>
+
+          <a href="#book" class="btn btn--primary btn--lg">
+            Book Your Free Strategy Call
+            <span class="btn-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="offer__visual reveal reveal-delay-2">
+          <div class="offer__visual-badge">What's Included</div>
+          <h3 class="offer__visual-title">CoachFlow 1:1 Program</h3>
+          <p class="offer__visual-subtitle">Everything you need to gain clarity, build momentum, and achieve your goals.</p>
+
+          <div class="offer__visual-items">
+            <div class="offer__visual-item">
+              <span>✓</span> Weekly private coaching sessions
+            </div>
+            <div class="offer__visual-item">
+              <span>✓</span> Custom strategy & action plan
+            </div>
+            <div class="offer__visual-item">
+              <span>✓</span> Goal-setting framework
+            </div>
+            <div class="offer__visual-item">
+              <span>✓</span> Accountability system
+            </div>
+            <div class="offer__visual-item">
+              <span>✓</span> Exercises & resources library
+            </div>
+            <div class="offer__visual-item">
+              <span>✓</span> Progress tracking dashboard
+            </div>
+            <div class="offer__visual-item">
+              <span>✓</span> Direct coach access via messaging
+            </div>
+          </div>
+
+          <a href="#book" class="btn btn--primary btn--lg" style="width: 100%;">
+            Start With a Free Call
+            <span class="btn-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       QUALIFICATION
+       ═══════════════════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Is This For You?</span>
+        <h2 class="section-headline">CoachFlow Is For You If…</h2>
+      </div>
+
+      <div class="qualification__content">
+        <div class="qual__for reveal">
+          <div class="qual-list">
+            <div class="qual-item">
+              <div class="qual-item__icon qual-item__icon--yes">✓</div>
+              <span>You're ambitious and know you're capable of more, but feel stuck or unclear about your next step.</span>
+            </div>
+            <div class="qual-item">
+              <div class="qual-item__icon qual-item__icon--yes">✓</div>
+              <span>You're tired of consuming advice and want a personalized strategy that actually works for you.</span>
+            </div>
+            <div class="qual-item">
+              <div class="qual-item__icon qual-item__icon--yes">✓</div>
+              <span>You're ready to invest time and energy into meaningful personal and professional growth.</span>
+            </div>
+            <div class="qual-item">
+              <div class="qual-item__icon qual-item__icon--yes">✓</div>
+              <span>You want accountability and honest feedback — not just motivation.</span>
+            </div>
+            <div class="qual-item">
+              <div class="qual-item__icon qual-item__icon--yes">✓</div>
+              <span>You're a professional, entrepreneur, founder, or career-minded person who wants results.</span>
+            </div>
+            <div class="qual-item">
+              <div class="qual-item__icon qual-item__icon--yes">✓</div>
+              <span>You're willing to take action and do the work between sessions.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="qual__not reveal reveal-delay-2">
+          <h3 class="qual__not-title">This may not be for you if…</h3>
+          <div class="qual-list">
+            <div class="qual-item">
+              <div class="qual-item__icon qual-item__icon--no">✕</div>
+              <span>You're looking for someone to do the work for you rather than guide you through it.</span>
+            </div>
+            <div class="qual-item">
+              <div class="qual-item__icon qual-item__icon--no">✕</div>
+              <span>You're not ready to commit to a process and show up consistently.</span>
+            </div>
+            <div class="qual-item">
+              <div class="qual-item__icon qual-item__icon--no">✕</div>
+              <span>You're looking for therapy or mental health support — coaching is not a substitute for clinical care.</span>
+            </div>
+            <div class="qual-item">
+              <div class="qual-item__icon qual-item__icon--no">✕</div>
+              <span>You want overnight results without putting in the effort.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       FAQ
+       ═══════════════════════════════════════ -->
+  <section class="section section--cream" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Common Questions</span>
+        <h2 class="section-headline">Frequently Asked Questions</h2>
+      </div>
+
+      <div class="faq__list">
+        <div class="faq-item reveal">
+          <button class="faq-item__header" id="faq-btn-1" aria-expanded="false" aria-controls="faq-answer-1">
+            What happens during the free strategy call?
+            <span class="faq-item__icon">+</span>
+          </button>
+          <div class="faq-item__body" id="faq-answer-1" role="region" aria-labelledby="faq-btn-1">
+            <p class="faq-item__answer">The free strategy call is a relaxed, 30-minute conversation where we get to know your situation, discuss your goals and challenges, and explore whether CoachFlow coaching is the right fit for you. There's no hard sell — it's simply a chance to see if we're a good match.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-1">
+          <button class="faq-item__header" id="faq-btn-2" aria-expanded="false" aria-controls="faq-answer-2">
+            How long does the coaching engagement last?
+            <span class="faq-item__icon">+</span>
+          </button>
+          <div class="faq-item__body" id="faq-answer-2" role="region" aria-labelledby="faq-btn-2">
+            <p class="faq-item__answer">Most clients start with a 3-month engagement to allow enough time for meaningful progress. After the initial period, many choose to continue on a month-to-month basis. The duration is always tailored to your goals and the pace that works best for you.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-2">
+          <button class="faq-item__header" id="faq-btn-3" aria-expanded="false" aria-controls="faq-answer-3">
+            Do I need to have clear goals before starting?
+            <span class="faq-item__icon">+</span>
+          </button>
+          <div class="faq-item__body" id="faq-answer-3" role="region" aria-labelledby="faq-btn-3">
+            <p class="faq-item__answer">Not at all. In fact, many clients come to CoachFlow specifically because they don't have clarity yet. Helping you define and refine your goals is a core part of the coaching process. You just need to know that you want something to change.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-3">
+          <button class="faq-item__header" id="faq-btn-4" aria-expanded="false" aria-controls="faq-answer-4">
+            What's the difference between coaching and therapy?
+            <span class="faq-item__icon">+</span>
+          </button>
+          <div class="faq-item__body" id="faq-answer-4" role="region" aria-labelledby="faq-btn-4">
+            <p class="faq-item__answer">Coaching is forward-focused and action-oriented. It's about helping you define goals, build strategies, and take action. Therapy, on the other hand, typically addresses mental health concerns, past trauma, and emotional healing. If you're currently in therapy, coaching can complement that work — but it's not a replacement for clinical support.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-4">
+          <button class="faq-item__header" id="faq-btn-5" aria-expanded="false" aria-controls="faq-answer-5">
+            What happens after the free call?
+            <span class="faq-item__icon">+</span>
+          </button>
+          <div class="faq-item__body" id="faq-answer-5" role="region" aria-labelledby="faq-btn-5">
+            <p class="faq-item__answer">After the call, if we both agree it's a good fit, I'll send you a simple onboarding guide and we'll schedule your first full coaching session. If it's not the right fit, no worries — you'll still walk away with clarity from the conversation itself.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-5">
+          <button class="faq-item__header" id="faq-btn-6" aria-expanded="false" aria-controls="faq-answer-6">
+            Are sessions held remotely?
+            <span class="faq-item__icon">+</span>
+          </button>
+          <div class="faq-item__body" id="faq-answer-6" role="region" aria-labelledby="faq-btn-6">
+            <p class="faq-item__answer">Yes! All coaching sessions are conducted via video call (Zoom) or phone, making it easy to fit into your schedule regardless of where you're located. CoachFlow works with clients across time zones worldwide.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       FINAL CTA
+       ═══════════════════════════════════════ -->
+  <section class="section section--dark final-cta" id="book">
+    <div class="final-cta__orb final-cta__orb--1" aria-hidden="true"></div>
+    <div class="final-cta__orb final-cta__orb--2" aria-hidden="true"></div>
+
+    <div class="container">
+      <span class="eyebrow reveal">Take the First Step</span>
+
+      <h2 class="final-cta__headline reveal">
+        You Don't Need to Have<br />It All Figured Out.
+      </h2>
+
+      <p class="final-cta__text reveal">
+        You just need to know that you're ready for something to change. Book your free strategy call and let's talk about where you are, where you want to be, and how to get there.
+      </p>
+
+      <div class="reveal">
+        <a href="#book" class="btn btn--primary btn--lg" id="final-cta">
+          Book Your Free Strategy Call
+          <span class="btn-arrow">→</span>
+        </a>
+        <p class="microcopy">
+          <span>📅 30 minutes</span>
+          <span>·</span>
+          <span>No pressure</span>
+          <span>·</span>
+          <span>No commitment</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="footer__brand-logo">
+            <span class="nav__logo-dot"></span>CoachFlow
+          </div>
+          <p class="footer__brand-desc">
+            Personalized 1:1 coaching for ambitious professionals who want clarity, strategy, and accountability to achieve their goals.
+          </p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social" aria-label="LinkedIn">in</a>
+            <a href="#" class="footer__social" aria-label="Twitter / X">𝕏</a>
+            <a href="#" class="footer__social" aria-label="Instagram">ig</a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__col-title">Navigation</h4>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#results">Results</a>
+          <a href="#faq">FAQ</a>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__col-title">Program</h4>
+          <a href="#program">Coaching Program</a>
+          <a href="#coach">Meet Your Coach</a>
+          <a href="#book">Book a Free Call</a>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__col-title">Contact</h4>
+          <a href="mailto:hello@coachflow.co">hello@coachflow.co</a>
+          <a href="#book">Schedule a Call</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>&copy; 2026 CoachFlow. All rights reserved.</span>
+        <span>Designed as a portfolio concept piece.</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
